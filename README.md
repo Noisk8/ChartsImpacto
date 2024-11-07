@@ -19,12 +19,14 @@ Los beneficiarios de este programa son beneficior directos porqué hacen parte d
 
 **Arte y Pensamiento**
 
+Durante el 2021 y el 2024 en el programa de Arte pensamiento 
+
  * Residencias **55**
  * Activiadades  **55**
 
 **Comunicaciones**
 
-Alcance de las redes sociales de platohedro entre 2021 - 2024
+Alcance de las redes sociales de platohedro entre 2021 y 2024
 
  * Instagram **32.000**
  * Facebook **32.000**
@@ -37,6 +39,7 @@ Audencia y participantes del programa web3wasi
 
  * RadioCypher **12.000**
  * Cómuun Y Corriente Space en X **4.000**
+ * Actividades **300**
 
 
 ### Plateta de colores 
