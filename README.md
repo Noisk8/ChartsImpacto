@@ -15,10 +15,14 @@ Un Pie por **Programa**
 
 Los beneficiarios de este programa son beneficior directos porqué hacen parte de procesos formativos constanes
 
- * Niños y Jovenes  **923**
- * Familiares **96**
- * Adultos y miembros de la comunidad **366**
- * Instituciones, Asociaciones, Redes  **55**
+
+| Población              | Beneficiarios                                    |
+| :--------------------- | :----------------------------------------------- |
+| `niños y jovenes`          | `923`                            |
+| `Familiares`          |  `96`      |
+| `Adultos y miembros de la comunidad` |  `366`          |
+| `Instituciones, Asociaciones, Redes `      | `366`     |
+
 
 **Arte y Pensamiento**
 
