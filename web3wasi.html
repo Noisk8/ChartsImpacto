@@ -5,18 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gráfica de Comunicaciones</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link
+  href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
+  rel="stylesheet"
+/>
   <style>
     .tooltip {
       position: absolute;
-      background: rgba(255, 255, 255, 0.027);
+      background: rgba(255, 255, 255, 0.9);
       color: rgb(0, 0, 0);
-      border-radius: 8px;
-      pointer-events:  none;
+      border-radius: 3px;
+      pointer-events: none;
       transition: all .1s ease;
       transform: translate(-50%, -50%);
       font-family: Oswald, sans-serif;
       font-size: 16px;
-     
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .tooltip .label,
+    .tooltip .value {
+      margin: 10px 0;
+      font-weight: bold;
+    }
+    .tooltip .description {
+      margin: 10px 0;
     }
   </style>
 </head>
@@ -25,11 +39,17 @@
   <script>
     var ctx = document.getElementById('myPieChart').getContext('2d');
     const data = {
-      labels: ['RadioCypher', 'Spaces', 'Activiaddes', ],
+      labels: ['RadioCypher', 'Spaces: Cómun y corriente', 'Activiades',],
+      descriptions: [
+        "Audiencia de RadioCypher",
+        "Espectadores de Spaces: Cómun y corriente",
+        "Participantes de las Actividades",
+     
+      ],
       datasets: [{
-        data: [3000, 2000, 1000, ],
+        data: [923, 96, 366,],
         backgroundColor: ['#5dc1b9', '#8fe8e0', '#db3434'],
-        hoverBackgroundColor: ['#5d41b9', '#8fe8e0', '#db3434',],
+        hoverBackgroundColor: ['#a23e46', '#70171f', '#24cbcb'],
         borderColor: '#000000',
         borderWidth: 1
       }]
@@ -41,7 +61,7 @@
         legend: {
           labels: {
             font: {
-              size: 18 // Cambia este valor al tamaño deseado
+              size: 18
             }
           }
         },
@@ -65,10 +85,13 @@
               var bodyLines = tooltipModel.body.map(function (bodyItem) {
                 return bodyItem.lines;
               });
+              var description = data.descriptions[tooltipModel.dataPoints[0].dataIndex];
               var innerHtml =
                 '<div class="label">' + titleLines.join("") + "</div>";
               innerHtml +=
                 '<div class="value">' + bodyLines.join("") + "</div>";
+              innerHtml +=
+                '<div class="description">' + description + "</div>";
               tooltipEl.innerHTML = innerHtml;
             }
             var position = context.chart.canvas.getBoundingClientRect();
@@ -86,10 +109,13 @@
               "px";
             tooltipEl.style.transform = "translate(-50%, -50%)";
             tooltipEl.style.fontFamily = "Oswald, sans-serif";
-            tooltipEl.style.fontSize = "16px";
+            tooltipEl.style.fontSize = "36px";
             tooltipEl.style.fontStyle = tooltipModel.options.bodyFont.style;
           }
         }
+      },
+      onHover: function(event, chartElement) {
+        event.native.target.style.cursor = chartElement[0] ? 'pointer' : 'default';
       }
     };
 
