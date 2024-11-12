@@ -1,5 +1,7 @@
 # Datos Impacto 2021 - 2024 (Platohedro)
 
+![chart plato1](https://github.com/user-attachments/assets/2f33b39b-bc58-461b-99fe-3585cc7a2064)
+
 
 Beneficiiarios directos e indirectos  de los programas Platohedro
 
