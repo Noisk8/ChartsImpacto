@@ -50,9 +50,50 @@
 <div style="display: flex; justify-content: center; align-items: center; padding-top: 30px;"></div>
     <div class="info-card" style="text-align: center; font-family: 'Oswald', sans-serif; font-size: 24px; padding: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 5px; transition: all 0.3s ease;">
         <p>Total de espectadores de Cómun y corriente y RadioCypher:</p>
-        <h1>14.200</h1>
+        <script>
+            function animateValue(id, start, end, duration) {
+                const obj = document.getElementById(id);
+                let startTimestamp = null;
+                const step = (timestamp) => {
+                    if (!startTimestamp) startTimestamp = timestamp;
+                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                    const value = Math.floor(progress * (end - start) + start);
+                    obj.innerHTML = value.toLocaleString('es-ES');
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                animateValue("count", 0, 14200, 2000);
+            });
+        </script>
+        <h1 id="count">0</h1>
         <p>Total de participantes en eventos presenciales:</p>
-        <h1>200</h1>
+        <script>
+            function animateValue(id, start, end, duration) {
+                const obj = document.getElementById(id);
+                let startTimestamp = null;
+                const step = (timestamp) => {
+                    if (!startTimestamp) startTimestamp = timestamp;
+                    const progress = Math.min((timestamp - startTimestamp) / duration, 1);
+                    const value = Math.floor(progress * (end - start) + start);
+                    obj.innerHTML = value.toLocaleString('es-ES');
+                    if (progress < 1) {
+                        window.requestAnimationFrame(step);
+                    }
+                };
+                window.requestAnimationFrame(step);
+            }
+
+            document.addEventListener("DOMContentLoaded", function() {
+                animateValue("count2", 0, 200, 2000);
+            });
+        </script>
+        <h1 id="count2">0</h1>
+        
     </div>
 </div>
 
