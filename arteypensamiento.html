@@ -36,18 +36,25 @@
 </head>
 <body>
   <canvas id="myPieChart"></canvas>
+  <div style="display: flex; justify-content: center; align-items: center; padding-top: 30px;">
+    <div style="text-align: center; font-family: 'Oswald', sans-serif; font-size: 24px; padding: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 5px;">
+       <p>Personas que participaron en las activiaddes relacionadas a las residencias</p>
+        <h1>Total beneficiarios: 1440</h1>
+    </div>
+</div>
   <script>
     var ctx = document.getElementById('myPieChart').getContext('2d');
     const data = {
-      labels: ['Residencias',  'Activiades',],
+      labels: ['Residencias Locales', 'Residencias Internacionales',  'Activiades',],
       descriptions: [
-        "Audiencia de RadioCypher",
-        "Espectadores de Spaces: Cómun y corriente",
+        "Residencias con artistas locales",
+        "Residencias con artistas internacionales",
+        "Activiaddes consecuentes a las residencias",
       
      
       ],
       datasets: [{
-        data: [923, 96,],
+        data: [23, 2,8],
         backgroundColor: ['#5dc1b9', '#db3434'],
         hoverBackgroundColor: ['#a23e46',  '#24cbcb'],
         borderColor: '#000000',

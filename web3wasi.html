@@ -36,18 +36,26 @@
 </head>
 <body>
   <canvas id="myPieChart"></canvas>
+  <div style="display: flex; justify-content: center; align-items: center; padding-top: 30px;">
+    <div style="text-align: center; font-family: 'Oswald', sans-serif; font-size: 24px; padding: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 5px;">
+       <p>Total de espectadores de RadioCypher y Cómun y corriente</p>
+        <h1>Total Audencia: 14.200</h1>
+        <p>Total de participantes en eventos presenciales</p>
+        <h1>Total Paricipantes: 200</h1>
+    </div>
+</div>
   <script>
     var ctx = document.getElementById('myPieChart').getContext('2d');
     const data = {
       labels: ['RadioCypher', 'Spaces: Cómun y corriente', 'Activiades',],
       descriptions: [
-        "Audiencia de RadioCypher",
+        "Audiencia del programa RadioCypher",
         "Espectadores de Spaces: Cómun y corriente",
-        "Participantes de las Actividades",
+        "Participantes de las Actividades presenciales",
      
       ],
       datasets: [{
-        data: [923, 96, 366,],
+        data: [10.200, 996, 200,],
         backgroundColor: ['#5dc1b9', '#8fe8e0', '#db3434'],
         hoverBackgroundColor: ['#a23e46', '#70171f', '#24cbcb'],
         borderColor: '#000000',
