@@ -28,8 +28,13 @@ Los beneficiarios de este programa son beneficior directos porqué hacen parte d
 
 Durante el 2021 y el 2024 en el programa de Arte pensamiento 
 
- * Residencias **55**
- * Activiadades  **55**
+
+| Actividades             | No. Residencias + beneficiarios                 |
+| :--------------------- | :----------------------------------------------- |
+| `Residencias Nacionales`          | `923`                            |
+| `Residencias Internacionales`          |  `96`      |
+| `Actividades` |  `366`          |
+
 
 **Comunicaciones**
 
@@ -47,9 +52,6 @@ Alcance de las redes sociales de platohedro entre 2021 y 2024
 
 Audencia y participantes del programa web3wasi
 
- * RadioCypher **12.000**
- * Cómuun Y Corriente Space en X **4.000**
- * Actividades **300**
 
 | Programa            | Audiencia y participantes                        |
 | :--------------------- | :----------------------------------------------- |
