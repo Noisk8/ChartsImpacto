@@ -40,6 +40,13 @@ Alcance de las redes sociales de platohedro entre 2021 y 2024
  * X **32.000**
  * Website  **32.000**
 
+| Plataforma             | Audiencia  e interacción                            |
+| :--------------------- | :----------------------------------------------- |
+| `Instagram`          | `923`                            |
+| `Facebook`          |  `96`      |
+| `X` |  `366`          |
+| `Website `      | `366`     |
+
 **Web3wasi**
 
 Audencia y participantes del programa web3wasi
