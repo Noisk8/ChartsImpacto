@@ -35,10 +35,6 @@ Durante el 2021 y el 2024 en el programa de Arte pensamiento
 
 Alcance de las redes sociales de platohedro entre 2021 y 2024
 
- * Instagram **32.000**
- * Facebook **32.000**
- * X **32.000**
- * Website  **32.000**
 
 | Plataforma             | Audiencia  e interacción                            |
 | :--------------------- | :----------------------------------------------- |
@@ -54,6 +50,12 @@ Audencia y participantes del programa web3wasi
  * RadioCypher **12.000**
  * Cómuun Y Corriente Space en X **4.000**
  * Actividades **300**
+
+| Programa            | Audiencia y participantes                        |
+| :--------------------- | :----------------------------------------------- |
+| `Radio Cypher`          | `923`                            |
+| `Spaces - Cómun y Corriente`          |  `96`      |
+| `Actividades` |  `366`          |
 
 
 ### Plateta de colores 
