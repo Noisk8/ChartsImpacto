@@ -41,12 +41,12 @@ Durante el 2021 y el 2024 en el programa de Arte pensamiento
 Alcance de las redes sociales de platohedro entre 2021 y 2024
 
 
-| Plataforma             | Audiencia  e interacción                            |
+| Plataforma             | Audiencia  e interacción                         |
 | :--------------------- | :----------------------------------------------- |
-| `Instagram`          | `923`                            |
-| `Facebook`          |  `96`      |
-| `X` |  `366`          |
-| `Website `      | `366`     |
+| `Instagram`          | `40.047`       |
+| `Facebook`           |  `20.320`      |
+| `X`                  |  `10.294`      |
+| `Website `           |  `366`         |
 
 **Web3wasi**
 
