@@ -31,9 +31,9 @@ Durante el 2021 y el 2024 en el programa de Arte pensamiento
 
 | Actividades             | No. Residencias + beneficiarios                 |
 | :--------------------- | :----------------------------------------------- |
-| `Residencias Nacionales`          | `923`                            |
-| `Residencias Internacionales`          |  `96`      |
-| `Actividades` |  `366`          |
+| `Residencias Nacionales`        | `923`      |
+| `Residencias Internacionales`   |  `96`      |
+| `Actividades`                   |  `366`     |
 
 
 **Comunicaciones**
@@ -53,11 +53,11 @@ Alcance de las redes sociales de platohedro entre 2021 y 2024
 Audencia y participantes del programa web3wasi
 
 
-| Programa            | Audiencia y participantes                        |
-| :--------------------- | :----------------------------------------------- |
-| `Radio Cypher`          | `923`                            |
-| `Spaces - Cómun y Corriente`          |  `96`      |
-| `Actividades` |  `366`          |
+| Programa            | Audiencia y participantes                     |
+| :-------------------| :---------------------------------------------|
+| `Radio Cypher`          | `10.345`           |
+| `Spaces - Cómun y Corriente` |  `5.680`      |
+| `Actividades` |  `166`                        |
 
 
 ### Plateta de colores 
