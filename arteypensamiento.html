@@ -66,7 +66,7 @@
         }
 
         document.addEventListener("DOMContentLoaded", function() {
-                animateValue("count", 0, 1.440, 2000);
+                animateValue("count", 0, 13, 13);
         });
     </script>
     <h1 id="count">0</h1>
@@ -75,16 +75,16 @@
   <script>
     var ctx = document.getElementById('myPieChart').getContext('2d');
     const data = {
-      labels: ['Residencias Locales', 'Residencias Internacionales',  'Activiades',],
+      labels: ['Residencias Locales', 'Residencias Internacionales', ],
       descriptions: [
         "Residencias con artistas locales",
         "Residencias con artistas internacionales",
-        "Activiaddes consecuentes a las residencias",
+  
       
      
       ],
       datasets: [{
-        data: [23, 2,8],
+        data: [9, 4,],
         backgroundColor: ['#5dc1b9', '#db3434', '#eb7575'],
         hoverBackgroundColor: ['#a23e46',  '#24cbcb', '#148a8a'],
         borderColor: '#000000',
