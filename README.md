@@ -46,7 +46,7 @@ Alcance de las redes sociales de platohedro entre 2021 y 2024
 | `Instagram`          | `40.047`       |
 | `Facebook`           |  `20.320`      |
 | `X`                  |  `10.294`      |
-| `Website `           |  `366`         |
+| `Website `           |  `139.448`         |
 
 **Web3wasi**
 
