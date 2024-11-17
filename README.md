@@ -15,34 +15,49 @@ Un Pie por **Programa**
 
 Los beneficiarios de este programa son beneficior directos porqué hacen parte de procesos formativos constanes
 
- * Niños y Jovenes  **923**
- * Familiares **96**
- * Adultos y miembros de la comunidad **366**
- * Instituciones, Asociaciones, Redes  **55**
+
+| Población              | Beneficiarios                                    |
+| :--------------------- | :----------------------------------------------- |
+| `niños y jovenes`          | `923`                            |
+| `Familiares`          |  `96`      |
+| `Adultos y miembros de la comunidad` |  `366`          |
+| `Instituciones, Asociaciones, Redes `      | `366`     |
+
 
 **Arte y Pensamiento**
 
 Durante el 2021 y el 2024 en el programa de Arte pensamiento 
 
- * Residencias **55**
- * Activiadades  **55**
+
+| Actividades             | No. Residencias + beneficiarios                 |
+| :--------------------- | :----------------------------------------------- |
+| `Residencias Nacionales`        | `923`      |
+| `Residencias Internacionales`   |  `96`      |
+| `Actividades`                   |  `366`     |
+
 
 **Comunicaciones**
 
 Alcance de las redes sociales de platohedro entre 2021 y 2024
 
- * Instagram **32.000**
- * Facebook **32.000**
- * X **32.000**
- * Website  **32.000**
+
+| Plataforma             | Audiencia  e interacción                         |
+| :--------------------- | :----------------------------------------------- |
+| `Instagram`          | `40.047`       |
+| `Facebook`           |  `20.320`      |
+| `X`                  |  `10.294`      |
+| `Website `           |  `139.448`         |
 
 **Web3wasi**
 
 Audencia y participantes del programa web3wasi
 
- * RadioCypher **12.000**
- * Cómuun Y Corriente Space en X **4.000**
- * Actividades **300**
+
+| Programa            | Audiencia y participantes                     |
+| :-------------------| :---------------------------------------------|
+| `Radio Cypher`          | `10.345`           |
+| `Spaces - Cómun y Corriente` |  `5.680`      |
+| `Actividades` |  `166`                        |
 
 
 ### Plateta de colores 
