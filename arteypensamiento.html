@@ -48,7 +48,7 @@
   <canvas id="myPieChart"></canvas>
   <div style="display: flex; justify-content: center; align-items: center; padding-top: 30px;">
     <div  class="info-card" style="text-align: center; font-family: 'Oswald', sans-serif; font-size: 24px; padding: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 5px;">
-       <p>Total personas que participaron en las activiaddes relacionadas a las residencias:</p>
+       <p>Total personas que participaron en las actividades relacionadas a las residencias:</p>
     <script>
         function animateValue(id, start, end, duration) {
                 const obj = document.getElementById(id);
@@ -66,7 +66,7 @@
         }
 
         document.addEventListener("DOMContentLoaded", function() {
-                animateValue("count", 0, 13, 13);
+                animateValue("count", 0, 21, 21);
         });
     </script>
     <h1 id="count">0</h1>
@@ -77,14 +77,14 @@
     const data = {
       labels: ['Residencias Locales', 'Residencias Internacionales', ],
       descriptions: [
-        "Residencias con artistas locales",
-        "Residencias con artistas internacionales",
+        "Artistas locales",
+        "Artistas internacionales",
   
       
      
       ],
       datasets: [{
-        data: [9, 4,],
+        data: [12, 9,],
         backgroundColor: ['#5dc1b9', '#db3434', '#eb7575'],
         hoverBackgroundColor: ['#a23e46',  '#24cbcb', '#148a8a'],
         borderColor: '#000000',
@@ -146,7 +146,7 @@
               "px";
             tooltipEl.style.transform = "translate(-50%, -50%)";
             tooltipEl.style.fontFamily = "Oswald, sans-serif";
-            tooltipEl.style.fontSize = "36px";
+            tooltipEl.style.fontSize = "26px";
             tooltipEl.style.fontStyle = tooltipModel.options.bodyFont.style;
           }
         }
