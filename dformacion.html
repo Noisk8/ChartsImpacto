@@ -58,7 +58,7 @@
                     if (!startTimestamp) startTimestamp = timestamp;
                     const progress = Math.min((timestamp - startTimestamp) / duration, 1);
                     const value = progress * (end - start) + start;
-                    obj.innerHTML = value.toFixed(3);
+                    obj.innerHTML = value.toFixed(0);
                     if (progress < 1) {
                         window.requestAnimationFrame(step);
                     }
@@ -67,7 +67,7 @@
             }
 
             document.addEventListener("DOMContentLoaded", function() {
-                animateValue("count", 0, 1.440, 2000);
+                animateValue("count", 0, 287, 2000);
             });
         </script>
         <h1 id="count">0</h1>
@@ -77,16 +77,15 @@
   <script>
     var ctx = document.getElementById('myPieChart').getContext('2d');
     const data = {
-      labels: ['Niños y Jovenes', 'Familias', 'Adultos y miembros de la comunidad', 'Instituciones, Asociaciones, Redes'],
+      labels: ['Niñas y niños', 'Adolescentes', 'Jóvenes', 'Madres y mujeres'],
       descriptions: [
-        "Niñxs paryicipantes en el Matinée de D-Formación",
-        "Familias beneficiadas por el programa de D-Formación",
-        "Adultos y miembros de la comunidad beneficiados por el programa de D-Formación",
-        "Instituciones y asociaciones beneficiadas por el programa de D-Formación",
-        "Emprendimientos y redes beneficiadas por Creacción ",
+        "145 niñas y niños participaron de manera constante, directa y activa.",
+        "26 adolescentes hicieron parte de los procesos durante 2025.",
+        "81 jóvenes fortalecieron sus capacidades con D-Formación.",
+        "35 madres y mujeres acompañaron permanentemente los procesos.",
       ],
       datasets: [{
-        data: [923, 96, 366, 55],
+        data: [145, 26, 81, 35],
         backgroundColor: ['#5dc1b9', '#8fe8e0', '#db3434', '#eb7575'],
         hoverBackgroundColor: ['#a23e46', '#70171f', '#24cbcb', '#148a8a'],
         borderColor: '#000000',
