@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gráfica de Comunicaciones</title>
+  <title>Gráfica de Arte y Pensamiento</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <link
   href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap"
@@ -48,7 +48,7 @@
   <canvas id="myPieChart"></canvas>
   <div style="display: flex; justify-content: center; align-items: center; padding-top: 30px;">
     <div  class="info-card" style="text-align: center; font-family: 'Oswald', sans-serif; font-size: 24px; padding: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); border-radius: 5px;">
-       <p>Total personas que participaron en las actividades relacionadas a las residencias:</p>
+       <p>Participantes directos y constantes en procesos de creación y formación durante 2025:</p>
     <script>
         function animateValue(id, start, end, duration) {
                 const obj = document.getElementById(id);
@@ -56,7 +56,7 @@
                 const step = (timestamp) => {
                         if (!startTimestamp) startTimestamp = timestamp;
                         const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-                        const value = (progress * (end - start) + start).toFixed(3);
+                        const value = Math.round(progress * (end - start) + start);
                         obj.innerHTML = value.toLocaleString('es-ES');
                         if (progress < 1) {
                                 window.requestAnimationFrame(step);
@@ -66,7 +66,7 @@
         }
 
         document.addEventListener("DOMContentLoaded", function() {
-                animateValue("count", 0, 21, 21);
+                animateValue("count", 0, 182, 2000);
         });
     </script>
     <h1 id="count">0</h1>
@@ -75,18 +75,24 @@
   <script>
     var ctx = document.getElementById('myPieChart').getContext('2d');
     const data = {
-      labels: ['Residencias Locales', 'Residencias Internacionales', ],
+      labels: [
+        'Equipo del proyecto',
+        'Participantes directos y constantes',
+        'Asistentes a encuentros y espacios públicos',
+        'Personas alcanzadas en circulación ampliada',
+        'Visualizaciones de la estrategia digital'
+      ],
       descriptions: [
-        "Artistas locales",
-        "Artistas internacionales",
-  
-      
-     
+        "15 personas en el equipo del proyecto",
+        "182 participantes directos y constantes en procesos de creación y formación",
+        "287 asistentes a encuentros y espacios públicos",
+        "29.445 personas alcanzadas en circulación ampliada",
+        "114.865 visualizaciones de la estrategia digital"
       ],
       datasets: [{
-        data: [12, 9,],
-        backgroundColor: ['#5dc1b9', '#db3434', '#eb7575'],
-        hoverBackgroundColor: ['#a23e46',  '#24cbcb', '#148a8a'],
+        data: [15, 182, 287, 29445, 114865],
+        backgroundColor: ['#5dc1b9', '#8fe8e0', '#db3434', '#eb7575', '#7b61ff'],
+        hoverBackgroundColor: ['#a23e46', '#70171f', '#24cbcb', '#148a8a', '#3a2bbf'],
         borderColor: '#000000',
         borderWidth: 1
       }]
